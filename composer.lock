@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fb5f3745e2ee4f8f21a713680abdebf2",
-    "content-hash": "3d3848dab4b9bd0c837810d5bc5b77d8",
+    "hash": "17a1f39b24209dafaabb2b32a33dcdb4",
+    "content-hash": "556c5b9dbe1bda847a87bf09864e45df",
     "packages": [
         {
             "name": "cweagans/composer-patches",
@@ -142,6 +142,32 @@
             "time": "2015-06-17 18:21:27"
         },
         {
+            "name": "drupal/bootstrap",
+            "version": "7.3.0",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/bootstrap",
+                "reference": "d1067c5f5645bdbbbf7a4ad95f16f937630bd965"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/bootstrap-7.x-3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-3.x": "7.3.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development."
+        },
+        {
             "name": "drupal/composer_vendor",
             "version": "7.1.0",
             "source": {
@@ -166,6 +192,176 @@
             },
             "notification-url": "http://packagist.drupal-composer.org/downloads/",
             "description": "Loads the composer generated autoload from the sites/all/vendor directory."
+        },
+        {
+            "name": "drupal/entity",
+            "version": "7.1.6",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/entity",
+                "reference": "724e7193419da3b7d3ca165025256371dd74eb4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/entity-7.x-1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "replace": {
+                "drupal/entity_token": "self.version"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Enables modules to work with any entity type and to provide entities."
+        },
+        {
+            "name": "drupal/fences",
+            "version": "7.1.2",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/fences",
+                "reference": "ea7e9e7040bc20b671d9a0c9f9b457a930ffb7b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/fences-7.x-1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/field": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Configurable field wrappers",
+            "homepage": "https://www.drupal.org/project/fences"
+        },
+        {
+            "name": "drupal/field_collection",
+            "version": "7.1.0-beta8",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/field_collection",
+                "reference": "bb4c9813cbd277dbf5d4710b7600fed7ba3f1149"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/field_collection-7.x-1.0-beta8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/entity": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Provides a field collection field, to which any number of fields can be attached."
+        },
+        {
+            "name": "drupal/flag",
+            "version": "7.3.6",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/flag",
+                "reference": "a273aa200c2f2b5cd6d765feaf523b81e6606ee5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/flag-7.x-3.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "replace": {
+                "drupal/flag_actions": "self.version",
+                "drupal/flag_bookmark": "self.version"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-3.x": "7.3.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Create customized flags that users can set on entities."
+        },
+        {
+            "name": "drupal/kalatheme",
+            "version": "dev-7.x-4.x",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/kalatheme",
+                "reference": "62fa410d0804b056b80858bb7bb3c177787b606f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/kalatheme-7.x-4.x-dev.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-4.x": "7.4.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "A flexible, responsive, lightweight and mobile-first theme built on Panopoly and powered by Twitter Bootstrap.",
+            "homepage": "https://www.drupal.org/project/kalatheme",
+            "time": "2015-06-11 17:50:27"
+        },
+        {
+            "name": "drupal/tweme",
+            "version": "dev-7.x-3.x",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/tweme",
+                "reference": "c7a2ef8687b5bc9cd9ac3bc5815a14131567ed17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/tweme-7.x-3.0-beta5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-3.x": "7.3.x-dev"
+                }
+            },
+            "notification-url": "http://packagist.drupal-composer.org/downloads/",
+            "description": "Ultra lightweight Bootstrap theme for Drupal.",
+            "homepage": "https://www.drupal.org/project/tweme",
+            "time": "2015-09-13 20:50:16"
         },
         {
             "name": "populist/panopoly-drops-7",
@@ -2975,7 +3171,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "davidbarratt/custom-installer": 20
+        "davidbarratt/custom-installer": 20,
+        "drupal/kalatheme": 20,
+        "drupal/tweme": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
