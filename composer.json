@@ -82,7 +82,7 @@
         "drupal/flag": "7.*",
         "drupal/bootstrap": "7.*",
         "drupal/kalatheme": "7.4.x-dev",
-        "drupal/tweme": "7.3.x-dev",
+        "drupal/tweme": "7.3.x-dev"
     },
     "require-dev": {
         "pantheon-systems/travis-scripts": "*"
