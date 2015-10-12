@@ -85,7 +85,8 @@
         "drupal/tweme": "7.3.x-dev"
     },
     "require-dev": {
-        "pantheon-systems/travis-scripts": "*"
+        "pantheon-systems/travis-scripts": "*",
+        "drupal/diff": "7.*"
     },
     "scripts": {
         "post-create-project-cmd": [
