@@ -76,7 +76,13 @@
         "derhasi/composer-preserve-paths": "0.1.*",
         "cweagans/composer-patches": "~1.0",
         "drupal/composer_vendor": "7.1.*",
-        "populist/panopoly-drops-7": "7.*"
+        "populist/panopoly-drops-7": "7.*",
+        "drupal/fences": "7.*",
+        "drupal/field_collection": "7.*",
+        "drupal/flag": "7.*",
+        "drupal/bootstrap": "7.*",
+        "drupal/kalatheme": "7.4.x-dev",
+        "drupal/tweme": "7.3.x-dev",
     },
     "require-dev": {
         "pantheon-systems/travis-scripts": "*"
