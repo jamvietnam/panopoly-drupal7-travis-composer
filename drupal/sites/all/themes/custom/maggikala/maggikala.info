@@ -1,0 +1,12 @@
+name = MaggiKala
+description = A Kalatheme subtheme powered by Twitter Bootstrap & Science.
+base theme = kalatheme
+core = 7.x
+
+regions[content] = Content
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = assets/css/pe-icon-7-stroke.css
+stylesheets[all][] = assets/css/gsdk.css
+stylesheets[all][] = assets/css/demo.css
+stylesheets[all][] = assets/css/examples.css 
