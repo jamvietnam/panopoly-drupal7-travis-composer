@@ -20,7 +20,7 @@ env:
     - SITE_NAME='Maggi Vietnam'
 
     # Your Pantheon site's idenfying name (i.e. as shown on the dashboard)
-    - PSITE='maggi-panopoly-travis-ci'
+    - PSITE='maggi-dev'
 
     # The Pantheon environment to push to after tests succeed.
     # DANGER: This environment will be switched from 'sftp' mode to 'git' mode
@@ -40,16 +40,16 @@ env:
     # access to this site. Used to authenticate to Pantheon via Terminus. You
     # must cd to your project root and run:
     #
-    # travis encrypt PEMAIL='test@example.com'
+    # travis encrypt PEMAIL=''
     #
-    - secure: rJSt8fMzzKDNl+KNQ7V0eMbidVCeaUM9X+jw3RFLqPmvHo3CVTRXNK3Z9HqCFa+XBQ5lOnSX1YFTnvgtOOUgigcJyxYxZrUWvlEDuFofHpub4Qira94sXcqkvVLfPlHdEhCG4XAUOjrI7b6BAx93KcscWpRu/LbmiBqCtR/H6OQGJfIXUQmjmNNsQsHGpSI98ehL2NVrupJEgMQLYoZeGCl8ab3W0YBzR/X7YJ5lNG1NHnMedaVFsnBfkQpeyIhAcQI7odYH/PjYbzE75DFD+xuPMz7rJURKb/URMZZsO5nF4Q2/VPHrd4MFoNwAm3uxqfRP3/KiJghV24BrXL9+OhklB7qrMDf2stKHneDJ/dkEUPS5Q881zMwU8MzUGz6zlxr6dh3LzwdFWA06XwTPmq6HiNMVyH8zTE931XhK3dUrz7B/uT+gDZayuDWtjrbZvZeI8sMeOb3RAg8TYzmhckCQ+CAqsTcciYiITCsLdfc4Gk3+RmKARLMjR6LtlUvly0Mjnq7xM8T4CVUH/Cy7ZihJlUSdcEFnrZjDs7qrgD1USfCQuRW4C35hg8C6kqEb7HPvnaTTSdb6qhtliBsYpRHvCfy1CCxYnFwBSCIST+f8Lc6e44a8dYFii6AcepwPlnrYbBHLo2fxkKGT2rPrumoEPtTdvzyYVyA1XiYj9AA=
+    - secure: bmTlWA6fzEdjjfxvg1Futtn4rYeVPSue+Jwlw6WczW8jPACNybQKlWvzyPwm/u5bAMM1JsVxOr626x/cRsChBkbxC+ZP770i9IRZuqOojor2McTUfmUQGRc/LhYQsdVqygvs8/Sccyjzk05I9+uQKo3h2AkEgyvd+Cn2TEHQheQ8elut4DW3wVrEMlGyMv/HTNWXrzYK9o+vEamycYUwXVGATH+zFyDEPpXNfK6a/wEaBaPPq6cMX0USn4sIXONkCnVzg9q3ECkJQwGIpW0t+7LDQ+wSZLj7CLBn1Qkw/jxB4DTl1KkYjCSFbW0HxjVhmk2niOU4D6mRG2nwEtlqhmz8f9gUBFbRNTaOb8UVDEvMIxPKHxj5knAUJOs+QV7s1xmwbemt5YTdAzxYJ3wo1kbSYGC7aLHYRbKGfpGY+wz5VbJKLoE/bY5ZGMs+M5+8iQoJPYIc9KUZDV5L/b6aHiJ2OWWR/3T4Krvl5aAdQDsz04DP/58I+prqsOy4mnrWHwB3eGOxUM+KAjd1LowUFAFN4wV3AVneRCSub9l5v5S2k5Eem8DO8z5/jsDep9FMX1qo3o3oIRD9Di/IEUpz34e6WUwHQi40JxSiElGDyPpzlE+3hT6XANl+mqBKae0+xCKqez0cDxUx6LoEM72R2efhtj94DCRfSRHzBZXkXu4=
     #
     # PPASS environment variable: represents the Pantheon account password for
     # the above encrypted e-mail address. Run:
     #
-    # travis encrypt PPASS='my_account_password'
+    # travis encrypt PPASS=''
     #
-    - secure: MAj/MbAqno6aJHPoOikG6lrzr+XcMD3ZtE9CdTfgAOczbXldIKVqmqgmjVeT+UF99tDPbgXSfxpKJn0OFEsE495fPb7SHRZA3QKOJgID5w/rDYFOqfLM4eHCLdIoNtMXGF70LcXNRCsw1B4Y32jxwZopGFTnbhb31KkcQ4O8dhPolmLVPx9U1tu1iLDWi4NdY6kJ3oQEcsdPCWHV4E3+LGnF0A5ui96PYWUoWMTWAUH38dDLZ2f5ADbiZjJSeSNjYcuQ8M8bszEi9Z4K1fL8oAgAKeTJobfhS2ZaXM1eS9NnJYR47RS7bTbF+vUX5OGUoRNN6XwFFjhmrQQBxQMIRStJZcWeVT6nABKRirP2DtKZXQVOSMZzt/RDqp89idnaVCUjhiZiEqPdvYc+YRfJ5JFIaUxlPZ2eX0xaQfO6/+5Oi6wQLWnJY0FPR4UGyFS8BJi1dikZh6R9ygbpBFkW9UN/RwuvkWmjUvtgXlSBaIBFoGhdK31FMn3CReWZHRv2Wx0BbQeyLfZSm5S7Qk3ahib95e9dMxLnW/mBMyM+vRnTZHya2Svq1JZ8Mj1IJGbJAf4DlF9/a0M8JupUpTBrPtzZSfVYGdw1iYrlmelvn6eTPyVqCjn6NsAnhpU4q89tHLozNXoP5PVIKeToseVCuVe2LSQjVcTMU26sO3at5Fk=
+    - secure: DsXl2MDT0EFJZbmIkajiQuT/jFUEBxdHHqS03NMuCPJ3trxX/eECqeczM7HGEtMzikEpkXTjHW5ZKvmBfbQ/5DagGSlHoGjst/O/9u00uo72G7HR5u++taAPErI1uZUoKYgdec9yxd2sPSqALVjuZor4SvvTNsdvLIq9YTOXzsEQ9R3yjlUUAAm4RxG5DaRCOjkMePYpnVcKXU5aF3Uqi+ywVygMzcu2kzv6r9xpI6wHdw9J91GKllQ81beFOm+/ByNPJcUvpPfRaTCMrISpos+gYt4zdOoxbExE323mO4mLfJwMF/XC3eonTK3U4sB7X0ndUal8INVKNLsze6vAssiZFwircrL96IERG/0+ba6l/qiWo7YIAeQJ8l/frAXBioHCZDr9knf80w2WbVdTCOry3zqjM4bLWNOB5eemBpaBGijVi68hV5U4poYXh1XKIaEZ9tdWMS4RcZVT/00ZG6Mdubat/7lTW827C83XJnp2MG4Rp6LUIsOlixmtIcTLF0auEEmeavhuVT8v2fQtnF727gQm/ca9Op+VfoGwxPuhfyVyESyMyrgZKF6DudmvrDW6RU0NgwaPNhG4b8LGN66RPUzbXzlDOLv3fmW+oq3BHxgjd5dAyz0z9uH3r7xd6vNOhsLtOKW6AZY2xq5jDj1T4HR1IxSHIyvZntuJN3U=
 
 before_install:
   # Make sure composer is up-to-date
