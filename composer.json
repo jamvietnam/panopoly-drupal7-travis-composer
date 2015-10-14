@@ -1,5 +1,5 @@
 {
-    "name": "jamvietname/panopoly-drupal7-travis-composer",
+    "name": "jamvietnam/panopoly-drupal7-travis-composer",
     "description": "Template for creating a project to manage a Drupal site with Composer, and test with Travis CI.  Use `composer create-project` to make your own project, or, if you prefer to clone the git repository, run `composer install` followed by `bin/init-new-project` to replace this file and set up your starting project.",
     "repositories": [
         {
@@ -69,6 +69,14 @@
                     "drupal/stark": "self.version"
                 }
             }
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jamvietnam/ci-scripts.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jamvietnam/travis-scripts.git"
         }
     ],
     "require": {
@@ -85,7 +93,7 @@
         "drupal/tweme": "7.3.x-dev"
     },
     "require-dev": {
-        "pantheon-systems/travis-scripts": "*",
+        "jamvietnam/travis-scripts": "dev-master",
         "drupal/diff": "7.*"
     },
     "scripts": {

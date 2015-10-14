@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f700ed34275f935a8c92aa026b3d6b38",
-    "content-hash": "957df86107aea15ebc214d5546e36000",
+    "hash": "69f8132bbdbf93c70efd0de3d54e45fb",
+    "content-hash": "ef7dae369c425c6544631ab41cfb6a35",
     "packages": [
         {
             "name": "cweagans/composer-patches",
@@ -1476,17 +1476,17 @@
             "time": "2015-06-15 20:19:33"
         },
         {
-            "name": "pantheon-systems/ci-scripts",
-            "version": "1.0.20",
+            "name": "jamvietnam/ci-scripts",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pantheon-systems/ci-scripts.git",
-                "reference": "18dafad5aa20654f76a6d4f19566035c971522b6"
+                "url": "https://github.com/jamvietnam/ci-scripts.git",
+                "reference": "97f73cd2d5d348620483bddb3ce566b946454d13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/ci-scripts/zipball/18dafad5aa20654f76a6d4f19566035c971522b6",
-                "reference": "18dafad5aa20654f76a6d4f19566035c971522b6",
+                "url": "https://api.github.com/repos/jamvietnam/ci-scripts/zipball/97f73cd2d5d348620483bddb3ce566b946454d13",
+                "reference": "97f73cd2d5d348620483bddb3ce566b946454d13",
                 "shasum": ""
             },
             "require": {
@@ -1509,34 +1509,38 @@
                 "scripts/local-test"
             ],
             "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Scripts helpful for testing a Drupal site on a Continuous-Integration server, or locally.",
-            "time": "2015-10-01 23:57:55"
+            "support": {
+                "source": "https://github.com/jamvietnam/ci-scripts/tree/dev-master"
+            },
+            "time": "2015-10-13 22:05:23"
         },
         {
-            "name": "pantheon-systems/travis-scripts",
-            "version": "1.4.6",
+            "name": "jamvietnam/travis-scripts",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pantheon-systems/travis-scripts.git",
-                "reference": "22d41488a4a7494a06f5227d81ae54bad417bca2"
+                "url": "https://github.com/jamvietnam/travis-scripts.git",
+                "reference": "21e35b0f965d866cc9c3a7efa71559247504c179"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/travis-scripts/zipball/22d41488a4a7494a06f5227d81ae54bad417bca2",
-                "reference": "22d41488a4a7494a06f5227d81ae54bad417bca2",
+                "url": "https://api.github.com/repos/jamvietnam/travis-scripts/zipball/21e35b0f965d866cc9c3a7efa71559247504c179",
+                "reference": "21e35b0f965d866cc9c3a7efa71559247504c179",
                 "shasum": ""
             },
             "require": {
-                "pantheon-systems/ci-scripts": "*"
+                "jamvietnam/ci-scripts": "dev-master"
             },
             "bin": [
                 "scripts/init-new-project"
             ],
             "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Use Travis to build a Drupal site with Composer, test with Behat, and then deploy to Pantheon.",
-            "time": "2015-08-04 22:27:22"
+            "support": {
+                "source": "https://github.com/jamvietnam/travis-scripts/tree/master"
+            },
+            "time": "2015-10-13 23:10:10"
         },
         {
             "name": "pear/console_table",
@@ -3199,7 +3203,8 @@
     "stability-flags": {
         "davidbarratt/custom-installer": 20,
         "drupal/kalatheme": 20,
-        "drupal/tweme": 20
+        "drupal/tweme": 20,
+        "jamvietnam/travis-scripts": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
